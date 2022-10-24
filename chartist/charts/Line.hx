@@ -4,7 +4,6 @@ import chartist.Base.BaseOptions;
 import chartist.Base.Data;
 import chartist.Base.GridClassNames;
 import chartist.Base.GridOptions;
-import haxe.ds.Either;
 import haxe.extern.EitherType;
 import js.html.Node;
 

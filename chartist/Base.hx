@@ -22,8 +22,6 @@ extern class Base
 	var container:SVGElement;
 	var supportsAnimations:Bool;
 	var supportsForeignObject:Bool;
-	//var defaultOptions:BaseOptions;
-	//var options:BaseOptions;
 }
 typedef BaseOptions =
 {
