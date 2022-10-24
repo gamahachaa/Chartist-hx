@@ -1,0 +1,26 @@
+package chartist.plugins;
+import chartist.plugins.Tooltip.TooltipOptions;
+
+/**
+ * ...
+ * @author bb
+ */
+@:native("Chartist.plugins")
+extern class Plugins 
+{
+	@:native("Chartist.plugins.tooltip")
+	public static function Tooltip(?defaultOptions:TooltipOptions){};
+	
+}
+typedef TooltipOptions = {
+	var ?currency:String;
+	var ?tooltipFnc:(String,String)->String;
+	var ?transformTooltipTextFnc:(String)->String;
+	var ?currencyFormatCallback:(String, ?TooltipOptions)->String;
+	var ?tooltipOffset:Point;
+	var ?anchorToPoint:Bool;
+	var ?appendToBody:Bool;
+	var ?metaIsHTML:Bool;
+	var ?pointClass:String;
+	@:native("class") var ?class_:String;
+}

@@ -1,0 +1,15 @@
+package chartist.plugins;
+import js.html.svg.Point;
+
+/**
+ * ...
+ * @author bb
+ */
+/*@:native("Chartist.plugins.tooltip")
+extern class Tooltip 
+{
+    //@:selfCall
+	public function new(?defaultOptions:TooltipOptions){};
+	
+}
+*/
